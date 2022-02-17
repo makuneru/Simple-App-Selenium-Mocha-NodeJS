@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1= title
+
+  table
+    tr
+      th ID:
+      td= user.id
+    tr
+      th Username:
+      td= user.username
+    tr
+      th Name:
+      td= user.displayName
+    tr
+      th Email:
+      td= user.email
+
+  p #[a(href='/logout') Logout]

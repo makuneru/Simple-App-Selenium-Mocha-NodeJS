@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1= title
+
+  form(action='/login' method='post')
+    table
+      tr
+        td
+          label Username:
+        td
+          input(type='text' name='username')
+      tr
+        td
+          label Password:
+        td
+          input(type='password' name='password')
+      tr
+        td(colspan=2)
+          input(type='submit' value='Submit')
