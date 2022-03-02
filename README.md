@@ -18,7 +18,7 @@ How to start:
 - `npm start` - will start the app, then you can access it on `http://localhost:3000`
 - `npm test` (in different terminal) - will execute tests
 
-Take your time to understand the structure of the application and then implement test cases in `test/basic-login-test.js` 
+Take your time to understand the structure of the application and then implement test cases in `test/basic-test.js` 
 file. We provided you with the very first test case `for anonymous user -> home page shows login link`. Please,
 implement its body and also come up with other test cases and implement them.
 
@@ -26,6 +26,7 @@ What we would like to see from you:
 
 - define meaningful test cases using Mocha's BDD style (`describe` & `it` constructs)
 - implement them using Selenium web driver
+- use chai assertion library in your created tests.
 
 NOTE: all dependencies that you will need to complete this task are already in `package.json` (see `devDependencies` section).
 
