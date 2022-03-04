@@ -27,6 +27,8 @@ What we would like to see from you:
 - define meaningful test cases using Mocha's BDD style (`describe` & `it` constructs)
 - implement them using Selenium web driver
 - use chai assertion library in your created tests.
+- in your test try to implement best practices. (ex. POM, Page Factory)
+
 - create defect/bug report found in the app on a separate file, if any.
 
 NOTE: all dependencies that you will need to complete this task are already in `package.json` (see `devDependencies` section).
