@@ -28,7 +28,7 @@ What we would like to see from you:
 - implement them using Selenium web driver
 - use chai assertion library in your created tests.
 - in your test try to implement best practices. (ex. POM, Page Factory)
-- please submit your code as if you are requesting for a pull request review.
+- submit your code/tests as if you are requesting for a pull request review.
 
 - create defect/bug report found in the app on a separate file, if any.
 
